@@ -2,17 +2,23 @@ import logo from "./logo.svg";
 import "./App.css";
 // import Table from "./Components/Table";
 import Button from "./Components/Button";
+import Input from "./Components/Input";
 
-const buttonClick = () => {
-  console.log("Button has been clicked");
+const inputHandle = (value) => {
+  console.log("Parent Input change", value);
 };
 
 function App() {
   return (
     <div className="App">
       {/* <Table /> */}
-
-      <Button
+      <Input
+        disabled={false}
+        type={"search"}
+        placeholder={"Enter Your Name"}
+        action={inputHandle}
+      />
+      {/* <Button
         label={"Read Text"}
         onClick={() => {}}
         color="info"
@@ -38,7 +44,7 @@ function App() {
         onLongPress={() => {}}
         size="xlg"
         disabled={false}
-      />
+      /> */}
     </div>
   );
 }

@@ -24,26 +24,26 @@
 }
 
 .xs {
-    height: 15px;
-    width: 25px;
+    height: 2.5em;
+    width: 10em;
 }
 
 .sm {
-    height: 30px;
-    width: 40px;
+    height: 3em;
+    width: 15em;
 }
 
 .md {
-    height: 45px;
-    width: 55px;
+    height: 3.5em;
+    width: 18em;
 }
 
 .lg {
-    height: 60px;
-    width: 70px;
+    height: 3.8em;
+    width: 20em;
 }
 
 .xlg {
-    height: 80px;
-    width: 90px;
+    height: 4em;
+    width: 25em;
 }
